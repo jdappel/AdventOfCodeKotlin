@@ -1,5 +1,3 @@
-import kotlin.math.max
-
 fun main() {
 
     fun logic(input: List<String>): Map<Int,Int> {
