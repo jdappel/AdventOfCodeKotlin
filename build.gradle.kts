@@ -3,7 +3,9 @@ plugins {
 }
 
 repositories {
-    mavenCentral()
+    maven {
+        url = uri("https://artifacts-read.gkp.jpmchase.net/artifactory/maven")
+    }
 }
 
 tasks {
@@ -19,5 +21,5 @@ tasks {
 }
 
 dependencies {
-    //implementation(kotlin("stdlib-jdk"))
+    implementation(kotlin("stdlib-jdk8"))
 }
